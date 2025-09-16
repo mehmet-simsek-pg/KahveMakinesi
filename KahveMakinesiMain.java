@@ -61,7 +61,7 @@ public class KahveMakinesiMain{
             case "venti" -> boyut = KahveBoyut.VENTI;
             case "trenta" -> boyut = KahveBoyut.TRENTA;
             default -> boyut = KahveBoyut.GRANDE;
-        };
+        }
         System.out.println(boyut.getBoyut() + " " + kahveTuru.getKahveTuru() + " hazırlanıyor...");
 
         kahveIsleyici.sutEkle();
@@ -72,7 +72,7 @@ public class KahveMakinesiMain{
 
     }
 
-public KahveMakinesiMain(KahveBoyut kahveBoyut, KahveTuru kahveTuru) {
+public KahveMakinesiMain() {
     super();
 }
 }
